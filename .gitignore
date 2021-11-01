@@ -1,0 +1,11 @@
+.DS_Store
+
+/node_modules
+/.parcel-cache/
+/dist/
+
+lib/core/metadata.js
+lib/core/MetadataBlog.js
+
+/.idea
+*.iml

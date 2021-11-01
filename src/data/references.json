@@ -1,0 +1,47 @@
+{
+  "LD-PROOFS": {
+    "title": "Linked Data Proofs 1.0",
+    "href": "https://w3c-ccg.github.io/ld-proofs",
+    "authors": ["David Longley", "Manu Sporny"],
+    "status": "CGDRAFT",
+    "publisher": "Web Payments Community Group"
+  },
+  "VC-FLAVORS": {
+    "title": "Verifiable Credentials Flavors Explained",
+    "href": "https://www.lfph.io/wp-content/uploads/2021/02/Verifiable-Credentials-Flavors-Explained.pdf",
+    "authors": ["Kaliya Young (Identity Woman)"]
+  },
+  "TOWARDS-VC-SERVICES": {
+    "title": "Towards Interoperable Vaccination Certificate Services",
+    "href": "https://dl.acm.org/doi/abs/10.1145/3465481.3470035",
+    "authors": [
+      "Andreea A. Corci",
+      "Detleft Hühnlein",
+      "Tina Hühnlein",
+      "Olaf Rode"
+    ]
+  },
+  "LIGHTWEIGHT-VC": {
+    "title": "Lightweight Selective Disclosure for Verifiable Documents on Blockchain",
+    "href": "https://arxiv.org/abs/2103.07655",
+    "authors": ["Kenji Saito", "Satoki Watanabe"]
+  },
+  "MIN-INFO-DISCLOSURE": {
+    "title": "Minimal Information Disclosure with Efficiently Verifiable Credentials.",
+    "href": "https://dl.acm.org/doi/abs/10.1145/1456424.1456428",
+    "authors": ["David Bauer", "Douglas M. Blough", "David Cash"]
+  },
+  "HOMOMORPH-SIGNATURES": {
+    "title": "Homomorphic signature schemes. In Topics in Cryptology",
+    "href": "https://dl.acm.org/doi/10.5555/646140.680938",
+    "authors": ["R. Johnson", "D. Molnar", "D. X. Song", "D. Wagner"]
+  },
+  "RAINBOW-TABLE": {
+    "title": "Rainbow Table Attack Wiki",
+    "href": "https://en.wikipedia.org/wiki/Rainbow_table"
+  },
+  "MERKLE-TREES": {
+    "title": "Merkle Trees Wiki",
+    "href": "https://en.wikipedia.org/wiki/Merkle_tree"
+  }
+}

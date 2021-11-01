@@ -1,0 +1,22 @@
+{
+  "name": "@govtech/merkle-tree-signature-spec",
+  "version": "1.0.0",
+  "description": "W3C proposal for merkle signature proofs for Verifiable Credentials",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "keywords": [
+    "W3C",
+    "cryptography",
+    "Verifiable-Credentials",
+    "Merkle-Trees"
+  ],
+  "author": "GovTech",
+  "license": "Apache-2.0"
+}
