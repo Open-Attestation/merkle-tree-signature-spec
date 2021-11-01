@@ -1,6 +1,6 @@
 import { AUTHORS, EDITORS, LOGOS } from "./data/contributors";
 import references from "./data/references.json"
-export default respecConfig = {
+const respecConfig = {
   subtitle: "Merkle signature proofs with selective disclosure",
   group: "vc",
   specStatus: "unofficial",
@@ -24,3 +24,6 @@ export default respecConfig = {
   },
   localBiblio: references
 };
+
+// expose respecConfig as a global
+window.respecConfig = respecConfig
