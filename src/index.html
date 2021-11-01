@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <script src='https://www.w3.org/Tools/respec/respec-w3c' async class='remove'></script>
+    <script class='remove' src="index.js" />
+    // <script class='remove' type="module" src="index.js" />
+  </head>
+  <body>
+    <h1 id="title">Merkle signature proofs for Verifiable Credentials</h1>
+    <section id='abstract'>
+      <p>
+        This document describes a different approach to the current verifying mechanisms in verifiable credentials.
+      </p>
+    </section>
+    <section id='sotd'>
+      <p>
+        Implementers are advised to consult this guide if they are directly
+        involved with the W3C VC Working Group.
+      </p>
+    </section>
+    <section id="terminology" class="informative">
+      <h2>Terminology</h2>
+      <p>
+        See [[VC-DATA-MODEL]] for definitions of commonly-used
+        <a data-cite="VC-DATA-MODEL#terminology">DID terminology</a>.
+      </p>
+    </section>
+    <section class="informative">
+      <h2>Introduction</h2>
+      <p>
+        Currently there are three primary variants of verifiable credentials, all of them have at least one implementation in different stages of production.
+        </p>
+        <p>
+          They are:
+1. JSON-LD family with LD-signatures or with BBS+ Signatures that enable Zero knowledge proofs (ZKPs)
+2. JSON with JSON web signatures, in the form of a JSON Web Token (JWT)
+3. ZKP with Camenisch-Lysyanskaya Signatures (ZKP-CL)
+          </p>
+
+          <p>
+Each of these implementation have various pros and cons and this paper will not go into the details of them. Instead, we would refer to the readers to a paper [3] written by Kaliya young, which goes into the specific details of these various implementations.
+            </p>
+<p>
+Although contrary to what the above paper hopes to achieves, what we propose is another flavour of a verifiable credential that is expressed in JSON-LD using linked data proofs that leverage on Merkle hash trees that are less complex ZKP implementations and more pragmatic in practice [5][6]. 
+        </p>
+      </section>
+    <section data-dfn-for="Foo">
+      <h2>Start your spec!</h2>
+      <pre class="idl">
+      [Exposed=Window]
+      interface Foo {
+        attribute DOMString bar;
+        undefined doTheFoo();
+      };
+      </pre>
+      <section>
+        <h2><dfn>bar</dfn> attribute</h2>
+        <p>When getting, the {{Foo/bar}} attribute returns you a 🍹.</p>
+      </section>
+      <section>
+        <h2><dfn>doTheFoo()</dfn> method</h2>
+        <p>When called, {{Foo/doTheFoo()}} MUST behave as follows:</p>
+        <ol class="algorithm">
+          <li>If <var>thing</var>....</li>
+          <li>Let <var>someProp</var>... of the [[DOM]] spec.</li>
+        </ol>
+      </section>
+    </section>
+    <section id='conformance'>
+      <!-- This section is filled automatically by ReSpec. -->
+    </section>
+  </body>
+</html>
